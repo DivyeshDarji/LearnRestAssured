@@ -29,7 +29,7 @@ public class ThirdRestTest {
 		jsonObject.put("name", "userTest");
 		jsonObject.put("job", "learning");
 
-		System.out.println(jsonObject); // {"name":"userTest","job":"learning"}
+		System.out.println("JSON Object: " + jsonObject); // {"name":"userTest","job":"learning"}
 
 		baseURI = "https://reqres.in/api";  // base URL 
 
